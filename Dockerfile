@@ -13,4 +13,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app.py model.py ./
 
 # Listen on all interfaces so the port can be published outside the container.
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "9000"]
