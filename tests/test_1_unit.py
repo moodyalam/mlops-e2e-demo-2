@@ -4,7 +4,7 @@ import numpy as np
 from model import train_model
 
 # The minimum accuracy we accept. If the model drops below this, the pipeline fails.
-ACCURACY_THRESHOLD = 1.01
+ACCURACY_THRESHOLD = 0.95
 
 
 def test_train_model_returns_valid_data():
