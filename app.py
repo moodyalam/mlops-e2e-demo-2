@@ -32,4 +32,5 @@ def predict(data: InputData):
     x = np.array(data.x).reshape(1, -1)
     prediction = int(model.predict(x)[0])
     print(f"Received request: {data.x} -> Prediction: {prediction}")
-    return {"prediction": prediction}
+    #return {"prediction": prediction}
+    return {"label": prediction}
