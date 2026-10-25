@@ -44,3 +44,4 @@ docker stop mlapp && docker rm mlapp
 ```
 
 The full lab instructions are in the accompanying notebook.
+test
